@@ -6,3 +6,4 @@ def cigarros_al_mes():
     return cantidad_cigarros_mes
 
 print(f"Fumas {cigarros_al_mes()} cigarros al mes")
+#hooooooo

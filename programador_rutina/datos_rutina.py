@@ -19,12 +19,17 @@ def Act_rea():
 
     if inp_act in actions:
         pers_cont += actions[inp_act]
-        print(f"Puntos acumulados: {pers_cont}")
+        
+        Most_cont()
     else: 
         print("La actividad no se encuentra en el diccionario")    
 
 def Most_cont():
     print(f"Puntos obtenidos: {pers_cont}")
+    if pers_cont == 9:
+        print("¡Llegaste al primer objetivo!")
+    elif pers_cont == 12:
+        print("¡Llegaste al segundo objetivo!")    
 
 while True:
     Menu()
